@@ -1,0 +1,48 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# IDE
+.vscode/
+.idea/
+*.code-workspace
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Build/Dist
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Caches/Logs
+.pytest_cache/
+.mypy_cache/
+.pyrightcache/
+.cache/
+logs/
+*.log
+
+# Project outputs
+results/
+models/
+checkpoints/
+artifacts/
+data/
+
+# Large binaries
+**/*.pyd
+**/*.dll
+**/*.so
+**/*.dylib
